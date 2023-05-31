@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "serve": "next start",
+    "serve": "next --openssl-legacy-provider start",
     "export": "next export",
     "postbuild": "next-sitemap"
   },
@@ -15,6 +15,7 @@
   "dependencies": {
     "@sendgrid/mail": "^7.2.6",
     "axios": "^1.4.0",
+    "cross-env": "^7.0.3",
     "dotenv": "^8.2.0",
     "framer-motion": "^2.7.5",
     "globby": "^11.0.0",
