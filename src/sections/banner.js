@@ -125,7 +125,7 @@ const Banner = () => {
             </Box> */}
           </Box>
           <Box sx={styles.image}>
-            <Image src={bannerImg} alt="" />
+            <Image src={bannerImg} alt="" sx={{ maxWidth: '200%!important' }} />
           </Box>
         </Grid>
       </Container>
